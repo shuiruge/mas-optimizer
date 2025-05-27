@@ -15,8 +15,8 @@ def norm(x):
 def normalize(x, eps=0.):
     return x / (norm(x) + eps)
 
-#dim = 1000000
-dim = 10
+dim = 100000
+#dim = 10
 random_key = 42
 experiments = 15
 
